@@ -99,7 +99,7 @@
         default_layer {
             display-name = "Default";
             bindings = <
-&kp Q     &kp W    &kp E    &kp R       &kp T     &none     &kp Y    &kp U   &kp I     &kp O     &kp P
+&kp Q     &kp W    &kp E    &kp R       &kp T               &kp Y    &kp U   &kp I     &kp O     &kp P
 &kp A     &kp S    &kp D    &kp F       &kp G     &mo 1     &kp H    &kp J   &kp K     &kp L     &kp SEMICOLON
 &kp Z     &kp X    &kp C    &kp V       &kp B     &mo 2     &kp N    &kp M   &kp COMMA &kp DOT   &kp SLASH
 &kp LCTRL &kp LGUI &kp LALT &lt 1 SPACE &kp SPACE &kp RALT  &kp RGUI &mo 2   &kp RCTRL &kp RALT  &kp RCTRL
@@ -109,7 +109,7 @@
         function_layer {
             display-name = "function";
             bindings = <
-&kp GRAVE &kp N1   &kp N2   &kp N3      &kp N4    &none     &kp N5   &kp N6  &kp N7     &kp N8     &kp N9
+&kp GRAVE &kp N1   &kp N2   &kp N3      &kp N4              &kp N5   &kp N6  &kp N7     &kp N8     &kp N9
 &kp A     &kp S    &kp D    &kp F       &kp G     &mo 1     &kp H    &kp J   &kp K     &kp L     &kp SEMICOLON
 &kp Z     &kp X    &kp C    &kp V       &kp B     &mo 2     &kp N    &kp M   &kp COMMA &kp DOT   &kp SLASH
 &kp LCTRL &kp LGUI &kp LALT &lt 1 SPACE &kp SPACE &kp RALT  &kp RGUI &mo 2   &kp RCTRL &kp RALT  &kp RCTRL
@@ -119,7 +119,7 @@
         other_layer {
             display-name = "other";
             bindings = <
-&kp GRAVE &kp N1   &kp N2   &kp N3      &kp N4    &none     &kp N5   &kp N6  &kp N7     &kp N8     &kp N9
+&kp GRAVE &kp N1   &kp N2   &kp N3      &kp N4              &kp N5   &kp N6  &kp N7     &kp N8     &kp N9
 &kp A     &kp S    &kp D    &kp F       &kp G     &mo 1     &kp H    &kp J   &kp K     &kp L     &kp SEMICOLON
 &kp Z     &kp X    &kp C    &kp V       &kp B     &mo 2     &kp N    &kp M   &kp COMMA &kp DOT   &kp SLASH
 &kp LCTRL &kp LGUI &kp LALT &lt 1 SPACE &kp SPACE &kp RALT  &kp RGUI &mo 2   &kp RCTRL &kp RALT  &kp RCTRL
