@@ -6,5 +6,4 @@ url: https://github.com/hmomoi/hmot40e-zmk-config
 requires: [seeeduino_xiao_ble]
 features:
   - keys
-  - studio
   - pointer
