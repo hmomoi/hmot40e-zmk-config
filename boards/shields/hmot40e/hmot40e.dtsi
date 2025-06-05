@@ -2,6 +2,9 @@
 #include <behaviors/rgbled_widget.dtsi>
 
 / {
+    chosen {
+        zmk,kscan = &kscan0; // kscan0 は実際に使用するkscanデバイスのノード名
+    };
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-charlieplex";
 	};
