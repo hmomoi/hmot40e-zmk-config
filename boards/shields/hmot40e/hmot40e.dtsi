@@ -1,5 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <behaviors/rgbled_widget.dtsi>
+#include "hmot40e-layout.dtsi"
 
 / {
     chosen {
