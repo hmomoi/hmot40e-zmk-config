@@ -1,0 +1,22 @@
+if SHIELD_HMOT40E
+    config ZMK_KEYBOARD_NAME
+        default "hmot40e"
+
+    config ZMK_BLE
+        default y
+
+    config NFCT_PINS_AS_GPIOS
+        default y
+
+    config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
+        default 30
+
+    config RGBLED_WIDGET_BATTERY_LEVEL_CRITICAL
+        default 10
+endif
+
+CONFIG_ZMK_POINTING=y
+CONFIG_ZMK_HID_REPORT_MOUSE=y
+CONFIG_ZMK_MOUSE=y
+CONFIG_ZMK_HID_REPORT_KEYBOARD=y
+CONFIG_ZMK_HID_BOOT_PROTOCOL=y
