@@ -2,11 +2,6 @@
 #include <behaviors/rgbled_widget.dtsi>
 
 / {
-    chosen {
-        zmk,kscan = &kscan0;
-        zmk,matrix_transform = &default_transform;
-    };
-
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-charlieplex";
         interrupt-gpios = <&xiao_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
